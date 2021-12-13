@@ -1,6 +1,8 @@
 # Loan Qualifying App
 
 Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+
+Looking to find my own lenders, I compiled a csv file of possible loan options in the markets. This project automates a debtor's search for a loan they qaulify for, and uses industry standards like income and laon-to-value ratio to do so.
  
 
 ---
@@ -9,11 +11,17 @@ Just after the title, introduce your project by describing attractively what the
 
 Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
 
+Written in python 3.7, this app levredges modules from the libraries sys, fire, path and questionairy to acheive its desired goals. sys fucntions as an event manager, it exits the app when necessary and directs the work flow to other modules when necessary conditions are met by the user. fire generates the command line interface, while the path library interprets file locations for theprogram to pull data from. Finally, the questionairy library allows for dynamic coding of users input variables, and lets this app get specified data from the users. In the future, the Plaid API could be added to this proect to add verification fucnitonality for the users fincancil information.  
+
 ---
 
-## Installation Guide
+## Installation Guide add scrrenshots of installs
 
 In this section, you should include detailed installation notes containing code blocks and screenshots.
+
+
+On iOS, pip install fire, sys, path, and questionairy respctively
+
 
 ---
 
@@ -31,7 +39,8 @@ This section should include screenshots, code blocks, or animations explaining h
 
 ## Contributors
 
-In this section, list all the people who contribute to this project; since you may want to be reached by recruiters or potential collaborators, include your contact e-mail, and optionally your LinkedIn or Twitter profile.
+Twitter- technoDiogenes
+LinkedIn- https://www.linkedin.com/in/david-ingraham-730066203/
 
 ---
 
